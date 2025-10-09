@@ -1,4 +1,8 @@
 .ipynb_checkpoints
 OpenMRG/notebooks/data
 OpenRainER/notebooks/data
-*.pyc
+*.pycOpenMesh/notebooks/data/
+OpenMesh/notebooks/__pycache__/
+OpenMesh/notebooks/.ipynb_checkpoints/
+.DS_Store
+.idea/
