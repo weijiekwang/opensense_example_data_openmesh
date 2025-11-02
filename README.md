@@ -18,3 +18,12 @@ The data will be downloaded by specific functions in `poligrain` (still to be ad
 ## Available data
 
 ...to be added
+
+## NYC MRMS download pipeline
+
+The `OpenRainER/mrms_nyc_pipeline.py` module provides a reusable Python
+pipeline for downloading Multi-Radar/Multi-Sensor (MRMS) precipitation data
+from NOAA's public AWS bucket, clipping it to the New York City boroughs, and
+exporting the result as NetCDF.  A companion notebook in
+`OpenRainER/notebooks/mrms_nyc_pipeline_demo.ipynb` walks through configuring a
+time range and running the pipeline inside Jupyter.
